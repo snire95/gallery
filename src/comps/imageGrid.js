@@ -14,7 +14,7 @@ const ImageGrid = ({setSelectedImg}) => {
    
      </motion.div>
      <a href={doc.url} download="filename">
-    <button class="btn"><i class="fa fa-download"></i> Download</button></a>
+    <button class="btn" styles="width:100%" ><i class="fa fa-download"></i> Download</button></a>
 
   {/* <a href={doc.url} target="_blank">Download</a> */}
 
